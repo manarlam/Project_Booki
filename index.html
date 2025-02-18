@@ -5,18 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
+<!-- Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+<!--Stylesheets-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<!-- CECI EST UN TEST GIT-->
+
 <body>
+
+    <header>
+
+<!-- Navbar-->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo/Booki.png" alt="Logo de Booki">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Hébergements</a></li>
+                <li><a href="#">Activités</a></li>
+            </ul>
+        </nav>
+
+        <div class="Phrase-accueil">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        </div>
+        
+<!-- Search bar-->
+        <div class="search-bar">
+            <i class="fa-solid fa-location-dot"></i> 
+            <form method="get" action="#"> <!--Bouton de recherche sous forme de formulaire-->
+                <label for="search" class="sr-only">Rechercher</label> <!-- sr-only accessibilité malvoyant-->
+                <input type="search" name="search" id="search" placeholder="Où allez-vous ?"> <!-- insertion d'un champ de texte-->
+                <button type="submit">Rechercher</button>
+            </form>
+        </div>
+
+<!-- Filters -->
+        <div class="filters">
+            <div class="filters-title">
+                <h3>Filtres</h3>
+            </div>
+            <div class="filters-content">
+                <ul>
+                    <li><i class="fa-solid fa-money-bill-wave filter-icon"></i>Économique</li>
+                    <li><i class="fa-solid fa-person filter-icon"></i>Familial</li>
+                    <li><i class="fa-solid fa-heart filter-icon"></i>Romantique</li>
+                    <li><i class="fa-solid fa-fire filter-icon"></i>Nos pépites</li>
+                </ul>
+            </div>
+        </div>
+
+<!-- Info -->
+        <div class="info">
+            <div class="info-title">
+                <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+    </header>
+
+    <!-- Main content-->
     <div class="main-container">
-        <header></header>
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
@@ -37,12 +91,12 @@
                                         <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i> <!-- fa-xs équivaut à la taille en 0.75em-->
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
+                                        <span class="sr-only">Note de 4 sur 5</span> <!-- sr-only accessibilité malvoyant-->
                                     </div>
                                 </div>
                             </article>
