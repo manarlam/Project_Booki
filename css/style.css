@@ -30,6 +30,7 @@ a {
     text-decoration: none;
 }
 
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -76,6 +77,26 @@ a {
     width: 65%;
 }
 
+/****** Activites ***********/
+
+.activites {
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.activites.cards {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.activites img{
+    width: 50%;
+    height: 380px;
+    object-fit: cover;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -119,6 +140,24 @@ a {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+/*footer*/
+
+.footer-container {
+    background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.footer-container h3 {
+    font-size: 18px;
+}
+
+.footer-container p {
+    font-size: 16px;
 }
 
 
