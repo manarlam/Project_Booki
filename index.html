@@ -20,7 +20,7 @@
     <div class="main-container">
     <header>
 <!-- Navbar-->
-        <nav class="navbar">
+        <nav class="nav-bar">
             <div class="logo">
                 <a href="#">
                     <img src="./images/logo/Booki.png" alt="Logo de Booki">
@@ -32,33 +32,31 @@
             </ul>
         </nav>
 
-        <div class="Phrase-accueil">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
+        <div>
+            <h1 class="title-h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="subtitle-h1">En plein centre-ville ou en pleine nature</p>
         </div>
         
 <!-- Search bar-->
-        <div class="search-bar">
-            <i class="fa-solid fa-location-dot"></i> 
-            <form method="get" action="#"> <!--Bouton de recherche sous forme de formulaire-->
+        <div class="search-box">
+            <div class="icon-location">
+                <i class="fa-solid fa-location-dot"></i> 
+            </div>
                 <label for="search" class="sr-only">Rechercher</label> <!-- sr-only accessibilité malvoyant-->
-                <input type="search" name="search" id="search" placeholder="Où allez-vous ?">  <!-- insertion d'un champ de texte-->
-                <button type="submit">Rechercher</button>
-            </form>
+                <input type="text" name="search" id="search" placeholder="Marseille, France" class="search-bar">  <!-- insertion d'un champ de texte-->
+                <button type="submit" class="search-button">Rechercher</button>
         </div>
 
 <!-- Filters -->
         <div class="filters">
-            <div class="filters-title">
-                <h3>Filtres</h3>
+            <div>
+                <h3 class="filters-title">Filtres</h3>
             </div>
             <div class="filters-content">
-                <ul>
-                    <li><i class="fa-solid fa-money-bill-wave filter-icon"></i>Économique</li>
-                    <li><i class="fa-solid fa-person filter-icon"></i>Familial</li>
-                    <li><i class="fa-solid fa-heart filter-icon"></i>Romantique</li>
-                    <li><i class="fa-solid fa-fire filter-icon"></i>Nos pépites</li>
-                </ul>
+                    <button class="filters-icon"><i class="fa-solid fa-money-bill-wave filter-icon"></i>Économique</button>
+                    <button class="filters-icon"><i class="fa-solid fa-person filter-icon"></i>Familial</button>
+                    <button class="filters-icon"><i class="fa-solid fa-heart filter-icon"></i>Romantique</button>
+                    <button class="filters-icon"><i class="fa-solid fa-fire filter-icon"></i>Nos pépites</button>
             </div>
         </div>
 
@@ -68,7 +66,7 @@
                 <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
     </header>
 
-    <!-- Main content-->
+<!-- Main content-->
 
         <main>
             <div class="hebergements-and-populaires">
@@ -274,45 +272,38 @@
                 </div>
                 <div class="activites-card">
                     <a href="#">
-                        <article class="card">
+                        <article class="activites-card-content">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port">
-                            <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Vieux-Port</h3>
+                                <div class="activites-card-txt">
+                                    <h3 class="activites-card-title">Vieux-Port</h3>
                                 </div>
-                            </div>
                         </article>
                     </a>
                     <a href="#">
-                        <article class="card">
+                        <article class="activites-card-content">
                             <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
-                            <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Fort de Pomègues</h3>
+                                <div class="activites-card-txt">
+                                    <h3 class="activites-card-title">Fort de Pomègues</h3>
                                 </div>
-                            </div>
                         </article>
                     </a>
                     <a href="#">
-                        <article class="card">
+                        <article class="activites-card-content">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
-                            <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Parc national des Calanques</h3>
+                                <div class="activites-card-txt">
+                                    <h3 class="activites-card-title">Parc national des Calanques</h3>
                                 </div>
-                            </div>
                         </article>
                     </a>
                     <a href="#">
-                        <article class="card">
+                        <article class="activites-card-content">
                             <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame de la Garde">
-                            <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Notre-Dame de la Garde</h3>
+                                <div class="activites-card-txt">
+                                    <h3 class="activites-card-title">Notre-Dame de la Garde</h3>
                                 </div>
-                            </div>
                         </article>
                     </a>
+                </div>
             </section>  
         </main>
 <!-- Footer -->
