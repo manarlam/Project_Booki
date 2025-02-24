@@ -461,13 +461,10 @@ a {
     }
 
     .activites-card-txt {
-     
-    }
-
-    .activites-card-title {
-        margin: 0;
-        
-        padding: 18px 18px 18px 0;
+        padding: 16px;
+        display: flex;
+        align-items: center; 
+        height: 40px; /* Hauteur fixe pour uniformiser */
     }
 
     .activites-card img {
