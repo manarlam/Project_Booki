@@ -17,26 +17,26 @@
 </head>
 
 <body>
-    <div>
-    <header>
-<!-- Navbar-->
-        <nav class="nav-bar">
+    <div class="main-container">
+<!-- Nav bar-->
+        <header>
             <div class="logo">
-                <a href="#">
-                    <img src="./images/logo/Booki.png" alt="Logo de Booki">
-                </a>
+              <img src="./images/logo/Booki.png" alt="Logo Booki"/>
             </div>
-            <ul class="nav-links">
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
-            </ul>
-        </nav>
-    </header>
-        <div>
+            <div class="nav-bar">
+              <nav>
+                <ul>
+                  <li class="nav-hebergements"> <a href="#hebergements">Hébergements</a> </li>
+                  <li class="nav-activites"> <a href="#activites">Activités</a> </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+          <div class="welcome-title">
             <h1 class="title-h1">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="subtitle-h1">En plein centre-ville ou en pleine nature</p>
         </div>
-        
 <!-- Search bar-->
     <main>
         <div class="search-box">
@@ -73,7 +73,7 @@
             <div class="hebergements-and-populaires">
 
 <!--Hébergements-->
-            <section class="hebergements">
+            <section class="hebergements" id="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>  
@@ -267,7 +267,7 @@
             </section>
             </div>
 <!-- Activités -->
-            <section class="activites">
+            <section class="activites" id="activites">
                 <div class="activites-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
