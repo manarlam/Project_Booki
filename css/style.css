@@ -505,7 +505,7 @@ header {
         padding: 16px;
         display: flex;
         align-items: center; 
-        height: 40px; /* Hauteur fixe pour uniformiser */
+        height: 40px; 
     }
 
     .activites-card img {
