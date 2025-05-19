@@ -27,7 +27,3 @@ Le design et les maquettes ont été fournis via Figma, mais l’intégration de
 ## Technologies utilisées
 - **HTML5**
 - **CSS3**
-
-**Pour visiter le site**
-
-https://manarlam.github.io/Project_Booki/
