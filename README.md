@@ -1,5 +1,11 @@
 # Projet - Page d'accueil d'une agence de voyage
 
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+
+**Pour visiter le site**
+
+https://manarlam.github.io/Project_Booki/
+
 ## Description du projet
 Ce projet visait à développer la page d’accueil responsive d’une agence de voyage, en utilisant uniquement HTML et CSS, dans le cadre d'une formation OpenClassrooms. L’objectif principal était de concevoir une interface utilisateur esthétique et adaptable à toutes les tailles d’écrans : mobile, tablette et desktop.
 
